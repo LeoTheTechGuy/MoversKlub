@@ -12,14 +12,11 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           {/* Logo */}
           <Link className="flex items-center gap-2 group" href="/">
-            <div className="size-8 flex items-center justify-center bg-primary text-white rounded-lg group-hover:rotate-12 transition-transform duration-300">
-              <span className="material-symbols-outlined text-[20px]">
-                local_shipping
-              </span>
-            </div>
-            <span className="text-primary text-xl font-bold tracking-tight">
-              MoversKlub
-            </span>
+            <img 
+              src="/logo.png" 
+              alt="MoversKlub Logo" 
+              className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105" 
+            />
           </Link>
 
           {/* Desktop Links */}
@@ -48,7 +45,7 @@ export default function Navbar() {
           <div className="flex items-center gap-4">
             <Link
               href="/contact"
-              className="hidden md:inline-flex bg-primary hover:bg-primary-90 text-white text-sm font-bold px-6 py-2.5 rounded-full transition-all shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 cursor-pointer"
+              className="hidden md:inline-flex bg-brand-blue hover:bg-brand-blue-hover text-white text-sm font-bold px-6 py-2.5 rounded-full transition-all shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 cursor-pointer"
             >
               Request Quote
             </Link>
@@ -93,7 +90,7 @@ export default function Navbar() {
             </Link>
             <Link
               href="/contact"
-              className="bg-primary text-center text-white text-lg font-bold px-6 py-3 rounded-xl shadow-lg"
+              className="bg-brand-blue text-center text-white text-lg font-bold px-6 py-3 rounded-xl shadow-lg"
               onClick={() => setIsOpen(false)}
             >
               Request Quote

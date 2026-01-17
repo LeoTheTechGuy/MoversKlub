@@ -68,7 +68,7 @@ export default function ContactPage() {
                     href="https://wa.me/27712126278?text=Hello%20MoversKlub,%20I%20would%20like%20to%20book%20a%20scheduled%20call."
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block bg-white text-primary font-bold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors cursor-pointer relative z-10 shadow-lg"
+                    className="inline-block bg-white text-brand-blue font-bold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors cursor-pointer relative z-10 shadow-lg"
                 >
                     Book a Call
                 </a>

@@ -14,7 +14,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
             <Link 
               href="/contact"
-              className="glass-panel group relative flex items-center justify-center gap-3 px-8 py-4 rounded-full text-primary font-bold shadow-soft hover:shadow-glow transition-all hover:-translate-y-1 cursor-pointer"
+              className="glass-panel group relative flex items-center justify-center gap-3 px-8 py-4 rounded-full text-brand-blue font-bold shadow-soft hover:shadow-glow transition-all hover:-translate-y-1 cursor-pointer"
             >
               <span className="material-symbols-outlined">request_quote</span>
               <span>Request Quote</span>

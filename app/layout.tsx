@@ -12,6 +12,9 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   title: "MoversKlub - Premium Logistics",
   description: "Experience the new standard in premium removals, event hire, and temperature-controlled transport.",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({

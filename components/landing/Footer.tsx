@@ -2,24 +2,47 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-primary text-white py-16">
+    <footer className="bg-[#041100] text-white py-16">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-2 mb-6">
-              <div className="size-6 bg-white/10 rounded flex items-center justify-center">
-                <span className="material-symbols-outlined text-sm">
-                  local_shipping
-                </span>
-              </div>
-              <span className="font-bold text-lg tracking-tight">
-                MoversKlub
-              </span>
+             <img 
+                src="/logo.png" 
+                alt="MoversKlub Logo" 
+                className="h-12 w-auto object-contain" 
+              />
             </div>
-            <p className="text-white/50 text-sm leading-relaxed">
+            <p className="text-white/50 text-sm leading-relaxed mb-6">
               Redefining logistics through precision, technology, and exceptional
               service.
             </p>
+            <div className="flex gap-4">
+              {/* Facebook */}
+              <a 
+                href="https://www.facebook.com/share/17QzqmZ1b9/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="size-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-white hover:text-brand-blue transition-all duration-300"
+              >
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                </svg>
+              </a>
+              {/* Instagram */}
+              <a 
+                href="https://www.instagram.com/moversklub?igsh=MWI5dWMxMmN4bWNzMQ%3D%3D&utm_source=qr" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="size-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-white hover:text-brand-blue transition-all duration-300"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </a>
+            </div>
           </div>
           <div>
             <h4 className="font-bold mb-4 text-white">Services</h4>

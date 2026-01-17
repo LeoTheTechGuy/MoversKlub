@@ -2,10 +2,14 @@
 @import "tw-animate-css";
 
 @theme inline {
-  --color-primary: #1a2b42;
-  --color-primary-60: rgba(26, 43, 66, 0.6);
-  --color-primary-70: rgba(26, 43, 66, 0.7);
-  --color-primary-90: rgba(26, 43, 66, 0.9);
+  --color-primary: #041100;
+  --color-primary-60: rgba(4, 17, 0, 0.6);
+  --color-primary-70: rgba(4, 17, 0, 0.7);
+  --color-primary-90: rgba(4, 17, 0, 0.9);
+  
+  --color-brand-blue: #38B6FF;
+  --color-brand-blue-hover: #299cdb;
+
   --color-background-light: #ffffff;
   --color-background-dark: #0b131e;
   --color-glass: rgba(255, 255, 255, 0.7);
@@ -13,8 +17,8 @@
   --font-display: "Manrope", sans-serif;
   --font-sans: "Manrope", sans-serif;
 
-  --shadow-soft: 0 20px 40px rgba(26, 43, 66, 0.05);
-  --shadow-glow: 0 0 20px rgba(26, 43, 66, 0.15);
+  --shadow-soft: 0 20px 40px rgba(4, 17, 0, 0.05);
+  --shadow-glow: 0 0 20px rgba(56, 182, 255, 0.25);
 }
 
 @layer utilities {
@@ -29,7 +33,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(135deg, #1a2b42 0%, #3e5c85 100%);
+    background-image: linear-gradient(135deg, #041100 0%, #38B6FF 100%);
   }
 
   .hover-lift {
