@@ -45,7 +45,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent pointer-events-none"></div>
             {/* Floating Badge */}
             <div className="absolute bottom-6 left-6 md:bottom-10 md:left-10 glass-panel px-4 py-3 rounded-xl flex items-center gap-3 shadow-lg">
-              <div className="bg-green-500/20 text-green-700 p-1.5 rounded-lg">
+              <div className="bg-green-500/20 text-green-700 dark:text-green-400 p-1.5 rounded-lg">
                 <span className="material-symbols-outlined text-[20px]">
                   thermostat
                 </span>

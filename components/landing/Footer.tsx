@@ -101,19 +101,19 @@ export default function Footer() {
                 <span className="material-symbols-outlined text-base">
                   call
                 </span>
-                <span>+1 (555) 123-4567</span>
+                <span>+27 71 212 6278</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-base">
                   mail
                 </span>
-                <span>hello@moversklub.com</span>
+                <span>moversklub@gmail.com</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-base">
                   location_on
                 </span>
-                <span>100 Logistics Way, NY</span>
+                <span>Cape Town, South Africa</span>
               </li>
             </ul>
           </div>

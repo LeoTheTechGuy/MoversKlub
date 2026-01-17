@@ -40,7 +40,7 @@ ${formData.message}`;
   };
 
   return (
-    <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+    <div className="bg-white dark:bg-white/5 p-8 rounded-2xl shadow-sm border border-gray-100 dark:border-white/10">
       <h3 className="text-2xl font-bold text-primary mb-6">Request a Quote</h3>
       <form onSubmit={handleSubmit} className="space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -55,7 +55,7 @@ ${formData.message}`;
               required
               value={formData.name}
               onChange={handleChange}
-              className="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
+              className="w-full px-4 py-3 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-200 dark:border-white/10 text-primary focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
               placeholder="John Doe"
             />
           </div>
@@ -70,7 +70,7 @@ ${formData.message}`;
               required
               value={formData.email}
               onChange={handleChange}
-              className="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
+              className="w-full px-4 py-3 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-200 dark:border-white/10 text-primary focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
               placeholder="john@example.com"
             />
           </div>
@@ -87,7 +87,7 @@ ${formData.message}`;
               name="phone"
               value={formData.phone}
               onChange={handleChange}
-              className="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
+              className="w-full px-4 py-3 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-200 dark:border-white/10 text-primary focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
               placeholder="+27 71 212 6278"
             />
           </div>
@@ -100,7 +100,7 @@ ${formData.message}`;
               name="serviceType"
               value={formData.serviceType}
               onChange={handleChange}
-              className="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
+              className="w-full px-4 py-3 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-200 dark:border-white/10 text-primary focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
             >
               <option value="Removals">Removals</option>
               <option value="Pick up and Deliver">Pick up and Deliver</option>
@@ -121,7 +121,7 @@ ${formData.message}`;
             name="referralSource"
             value={formData.referralSource}
             onChange={handleChange}
-            className="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
+            className="w-full px-4 py-3 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-200 dark:border-white/10 text-primary focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
           >
             <option value="" disabled>Select an option</option>
             <option value="Google Search">Google Search</option>
@@ -142,14 +142,14 @@ ${formData.message}`;
             rows={4}
             value={formData.message}
             onChange={handleChange}
-            className="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none"
+            className="w-full px-4 py-3 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-200 dark:border-white/10 text-primary focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none"
             placeholder="Tell us more about your logistics needs..."
           />
         </div>
 
         <button
           type="submit"
-          className="w-full bg-primary hover:bg-primary-90 text-white font-bold py-4 rounded-xl transition-all shadow-lg hover:shadow-xl hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+          className="w-full bg-primary dark:bg-[#041100] hover:bg-primary-90 dark:hover:bg-black/80 text-white font-bold py-4 rounded-xl transition-all shadow-lg hover:shadow-xl hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
         >
           Submit Request
         </button>

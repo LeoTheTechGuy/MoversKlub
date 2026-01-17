@@ -1,6 +1,6 @@
 export default function Process() {
   return (
-    <section className="py-24 bg-gray-50 border-t border-gray-100" id="process">
+    <section className="py-24 bg-gray-50 dark:bg-background-light border-t border-gray-100 dark:border-white/10" id="process">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-primary mb-4">
@@ -15,7 +15,7 @@ export default function Process() {
           <div className="hidden md:block absolute top-12 left-[16%] right-[16%] h-0.5 bg-gray-200 -z-10"></div>
           {/* Step 1 */}
           <div className="flex flex-col items-center text-center group">
-            <div className="size-24 rounded-full bg-white border border-gray-100 shadow-soft flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 relative z-10">
+            <div className="size-24 rounded-full bg-white dark:bg-background-light border border-gray-100 dark:border-white/10 shadow-soft flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 relative z-10">
               <span className="material-symbols-outlined text-4xl text-primary">
                 calculate
               </span>
@@ -30,7 +30,7 @@ export default function Process() {
           </div>
           {/* Step 2 */}
           <div className="flex flex-col items-center text-center group">
-            <div className="size-24 rounded-full bg-white border border-gray-100 shadow-soft flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 relative z-10">
+            <div className="size-24 rounded-full bg-white dark:bg-background-light border border-gray-100 dark:border-white/10 shadow-soft flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 relative z-10">
               <span className="material-symbols-outlined text-4xl text-primary">
                 calendar_month
               </span>
@@ -44,7 +44,7 @@ export default function Process() {
           </div>
           {/* Step 3 */}
           <div className="flex flex-col items-center text-center group">
-            <div className="size-24 rounded-full bg-primary text-white shadow-lg shadow-primary/30 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 relative z-10">
+            <div className="size-24 rounded-full bg-primary text-white dark:text-[#041100] shadow-lg shadow-primary/30 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 relative z-10">
               <span className="material-symbols-outlined text-4xl">
                 local_shipping
               </span>

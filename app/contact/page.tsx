@@ -58,17 +58,17 @@ export default function ContactPage() {
             </div>
 
              {/* Schedule Call Section */}
-             <div className="bg-primary text-white p-8 rounded-2xl relative overflow-hidden group">
-                <div className="absolute top-0 right-0 -mt-8 -mr-8 w-32 h-32 bg-white/10 rounded-full blur-2xl group-hover:bg-white/20 transition-colors"></div>
+             <div className="bg-primary dark:bg-white text-white dark:text-black p-8 rounded-2xl relative overflow-hidden group">
+                <div className="absolute top-0 right-0 -mt-8 -mr-8 w-32 h-32 bg-white/10 dark:bg-black/5 rounded-full blur-2xl group-hover:bg-white/20 dark:group-hover:bg-black/10 transition-colors"></div>
                 <h3 className="text-2xl font-bold mb-4 relative z-10">Schedule a Consultation</h3>
-                <p className="text-white/80 mb-6 relative z-10">
+                <p className="text-white/80 dark:text-black/70 mb-6 relative z-10">
                     Prefer to talk at a specific time? Book a slot with our logistics experts.
                 </p>
                 <a 
                     href="https://wa.me/27712126278?text=Hello%20MoversKlub,%20I%20would%20like%20to%20book%20a%20scheduled%20call."
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block bg-white text-brand-blue font-bold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors cursor-pointer relative z-10 shadow-lg"
+                    className="inline-block bg-white text-brand-blue dark:bg-[#041100] dark:text-white font-bold px-6 py-3 rounded-lg hover:bg-gray-100 dark:hover:bg-black/80 transition-colors cursor-pointer relative z-10 shadow-lg"
                 >
                     Book a Call
                 </a>
