@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import ContactForm from "@/components/contact/ContactForm";
 
 export default function ContactPage() {
@@ -77,7 +77,9 @@ export default function ContactPage() {
 
           {/* Form Side */}
           <div>
-            <ContactForm />
+            <Suspense fallback={<div className="h-96 flex items-center justify-center text-primary-60">Loading form...</div>}>
+              <ContactForm />
+            </Suspense>
           </div>
         </div>
       </div>
