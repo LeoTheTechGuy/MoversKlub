@@ -50,7 +50,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-primary text-lg">Location</h3>
-                    <p className="text-primary-60 font-medium">cape town, South Africa</p>
+                    <p className="text-primary-60 font-medium">Cape Town, South Africa</p>
                     <p className="text-sm text-primary-60/80">Serving nationwide.</p>
                   </div>
                 </div>

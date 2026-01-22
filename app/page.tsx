@@ -3,6 +3,7 @@ import TrustStrip from "@/components/landing/TrustStrip";
 import Services from "@/components/landing/Services";
 import Process from "@/components/landing/Process";
 import CTA from "@/components/landing/CTA";
+import Reviews from "@/components/landing/Reviews";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <TrustStrip />
         <Services />
         <Process />
+        <Reviews />
         <CTA />
       </main>
     </div>

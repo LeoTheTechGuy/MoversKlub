@@ -3,7 +3,7 @@ export default function CTA() {
     <section className="py-24 bg-white text-black relative overflow-hidden">
       <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
         <h2 className="text-4xl md:text-5xl font-extrabold text-[#041100] tracking-tight mb-6">
-          Ready to move with the best?
+          Looking to connect with clients?
         </h2>
         <p className="text-lg text-[#041100]/60 mb-10">
           Join thousands of satisfied clients who trust MoversKlub for their

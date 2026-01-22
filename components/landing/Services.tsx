@@ -1,3 +1,5 @@
+"use client";
+
 export default function Services() {
   return (
     <section className="py-24 bg-white dark:bg-background-light" id="services">
@@ -16,9 +18,13 @@ export default function Services() {
           <div className="md:col-span-2 relative group overflow-hidden rounded-2xl bg-gray-50 dark:bg-transparent hover-lift shadow-sm border border-gray-100 dark:border-white/10">
             <img
               alt="Interior view of a clean, modern warehouse with packages"
-              className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               src="/Refrigerated Delivery.png"
             />
+            <div 
+              onClick={() => window.location.href = '/contact?service=Refrigerated%20Transport'}
+              className="absolute inset-0 cursor-pointer"
+            ></div>
             <div className="absolute inset-0 bg-gradient-to-t from-[#041100]/90 via-[#041100]/20 to-transparent"></div>
             <div className="absolute bottom-0 left-0 p-8 md:p-10 w-full">
               <div className="mb-4 inline-flex items-center justify-center size-12 rounded-full bg-white/20 backdrop-blur-md text-white border border-white/30">
@@ -28,7 +34,7 @@ export default function Services() {
                 Refrigerated Transport
               </h3>
               <p className="text-white/80 max-w-md text-base md:text-lg">
-                Studio-grade temperature control for pharmaceuticals, fine art,
+                Studio-grade temperature control for fine art,
                 and perishables. Real-time monitoring included.
               </p>
             </div>
@@ -37,10 +43,14 @@ export default function Services() {
           <div className="relative group overflow-hidden rounded-2xl bg-gray-50 dark:bg-transparent hover-lift shadow-sm border border-gray-100 dark:border-white/10 flex flex-col justify-end">
             <img
               alt="Concert stage lighting equipment being set up"
-              className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               src="/Vehicle Event Hire.png"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#041100]/90 via-[#041100]/20 to-transparent"></div>
+            <div 
+              onClick={() => window.location.href = '/contact?service=Event%20Logistics'}
+              className="absolute inset-0 cursor-pointer"
+            ></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-[#041100]/90 via-[#041100]/20 to-transparent pointer-events-none"></div>
             <div className="relative p-8 z-10">
               <div className="mb-4 inline-flex items-center justify-center size-10 rounded-full bg-white/20 backdrop-blur-md text-white border border-white/30">
                 <span className="material-symbols-outlined">event_seat</span>
@@ -62,6 +72,10 @@ export default function Services() {
                 src="/Removals.png"
               />
             </div>
+            <div 
+              onClick={() => window.location.href = '/contact?service=White-Glove%20Removals'}
+              className="absolute inset-0 cursor-pointer"
+            ></div>
             <div>
               <div className="mb-3 inline-flex items-center justify-center size-10 rounded-full bg-primary/5 text-primary">
                 <span className="material-symbols-outlined">inventory_2</span>
@@ -71,6 +85,30 @@ export default function Services() {
               </h3>
               <p className="text-primary-60 text-sm">
                 Residential moving service with meticulous attention to detail.
+              </p>
+            </div>
+          </div>
+          {/* Medium Card: Rubble Removal */}
+          <div 
+            onClick={() => window.location.href = '/contact?service=Rubble%20Removal'}
+            className="relative group overflow-hidden rounded-2xl bg-white dark:bg-background-light hover-lift shadow-sm border border-gray-100 dark:border-white/10 flex flex-col p-8 cursor-pointer"
+          >
+            <div className="flex-1 flex items-center justify-center mb-6">
+              <img
+                alt="Construction site rubble being cleared"
+                className="w-full h-48 object-cover rounded-xl shadow-md"
+                src="/Rubble Removal.png"
+              />
+            </div>
+            <div>
+              <div className="mb-3 inline-flex items-center justify-center size-10 rounded-full bg-primary/5 text-primary">
+                <span className="material-symbols-outlined">delete_sweep</span>
+              </div>
+              <h3 className="text-xl font-bold text-primary mb-1">
+                Rubble Removal
+              </h3>
+              <p className="text-primary-60 text-sm">
+                Efficient site clearing and waste removal services.
               </p>
             </div>
           </div>

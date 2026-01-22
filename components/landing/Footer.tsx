@@ -73,12 +73,12 @@ export default function Footer() {
             <h4 className="font-bold mb-4 text-white">Company</h4>
             <ul className="space-y-3 text-sm text-white/60">
               <li>
-                <Link className="hover:text-white transition-colors" href="#">
+                <Link className="hover:text-white transition-colors" href="/about">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link className="hover:text-white transition-colors" href="#">
+                <Link className="hover:text-white transition-colors" href="/careers">
                   Careers
                 </Link>
               </li>
@@ -120,7 +120,7 @@ export default function Footer() {
         </div>
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-white/40 text-sm">
-            © 2024 MoversKlub Inc. All rights reserved.
+            © 2025 MoversKlub Inc. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-white/40">
             <Link className="hover:text-white transition-colors" href="#">
