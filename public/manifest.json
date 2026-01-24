@@ -1,0 +1,30 @@
+{
+  "name": "MoversKlub - Professional Moving Services",
+  "short_name": "MoversKlub",
+  "description": "South Africa's trusted moving company for home & office removals, furniture moving, rubble removal, refrigerated transport & event logistics. Cape Town & nationwide.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#041100",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-ZA",
+  "categories": ["business", "logistics", "transportation"],
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

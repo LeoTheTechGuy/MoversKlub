@@ -1,0 +1,37 @@
+# https://www.moversklub.co.za/robots.txt
+# MoversKlub - Professional Moving Services South Africa
+
+User-agent: *
+Allow: /
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.moversklub.co.za/sitemap.xml
+
+# Crawl-delay (be respectful to server)
+Crawl-delay: 1
+
+# Block areas that shouldn't be indexed
+Disallow: /api/
+Disallow: /_next/static/
+Disallow: /_next/image/
+Disallow: /admin/
+Disallow: /*.json$
+
+# Allow important resources
+Allow: /logo.png
+Allow: /og-image.png
+Allow: /*.css
+Allow: /*.js
