@@ -134,6 +134,19 @@ export default function Footer() {
             </Link>
           </div>
         </div>
+        <div className="pt-6 text-center">
+          <p className="text-white/40 text-sm">
+            Developed by{" "}
+            <a 
+              href="https://leothetechguy.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors underline"
+            >
+              Leothetechguy
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );
