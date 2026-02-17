@@ -6,10 +6,10 @@ export default function TrustStrip() {
           <span className="material-symbols-outlined">verified</span> 99.8%
           On-Time
         </span>
-        <span className="text-lg font-bold flex items-center gap-2 text-primary">
+        {/* <span className="text-lg font-bold flex items-center gap-2 text-primary">
           <span className="material-symbols-outlined">shield</span> Fully
           Insured
-        </span>
+        </span> */}
         <span className="text-lg font-bold flex items-center gap-2 text-primary">
           <span className="material-symbols-outlined">support_agent</span> 24/7
           Support

@@ -44,7 +44,7 @@ export default function Services() {
             <img
               alt="Concert stage lighting equipment being set up"
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-              src="/Vehicle Event Hire.png"
+              src="/Event logistics .jpeg"
             />
             <div 
               onClick={() => window.location.href = '/contact?service=Event%20Logistics'}
@@ -67,9 +67,9 @@ export default function Services() {
           <div className="relative group overflow-hidden rounded-2xl bg-white dark:bg-background-light hover-lift shadow-sm border border-gray-100 dark:border-white/10 flex flex-col p-8">
             <div className="flex-1 flex items-center justify-center mb-6">
               <img
-                alt="Modern clean kitchen interior representing home removals"
+                alt="Movers carrying furniture into a new home"
                 className="w-full h-48 object-cover rounded-xl shadow-md"
-                src="/Removals.png"
+                src="/moving.jpeg"
               />
             </div>
             <div 
@@ -123,14 +123,19 @@ export default function Services() {
                 multi-drop routes to international freight.
               </p>
             </div>
-            <a 
-              href="https://wa.me/27712126278?text=Hello%20MoversKlub,%20I%20would%20like%20to%20speak%20to%20an%20expert%20about%20a%20custom%20solution."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="shrink-0 bg-white text-primary dark:bg-[#041100] dark:text-white hover:bg-gray-100 dark:hover:bg-black/80 font-bold px-8 py-3 rounded-xl transition-colors cursor-pointer"
-            >
-              Talk to an Expert
-            </a>
+            <div className="flex items-center gap-6">
+              <a 
+                href="https://wa.me/27712126278?text=Hello%20MoversKlub,%20I%20would%20like%20to%20speak%20to%20an%20expert%20about%20a%20custom%20solution."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="shrink-0 bg-white text-primary dark:bg-[#041100] dark:text-white hover:bg-gray-100 dark:hover:bg-black/80 font-bold px-8 py-3 rounded-xl transition-colors cursor-pointer"
+              >
+                Talk to an Expert
+              </a>
+              <div className="hidden md:block w-48 h-32 rounded-lg overflow-hidden shadow-md">
+                <img src="/moving2.jpeg" alt="Logistics team coordinating a complex move" className="w-full h-full object-cover" />
+              </div>
+            </div>
           </div>
         </div>
       </div>

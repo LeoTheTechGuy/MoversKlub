@@ -6,36 +6,42 @@ export default function ServicesPage() {
   const services = [
     {
       title: "White-Glove Removals",
+      slug: "white-glove-removals",
       description: "Professional removal services for homes and businesses. We handle your belongings with the utmost care, ensuring a stress-free moving experience.",
       icon: "inventory_2",
-      image: "/Removals.png"
+      image: "/house_moving.jpeg"
     },
     {
       title: "Rubble Removal",
+      slug: "rubble-removal",
       description: "Efficient site clearing and waste removal services for construction, residential, and commercial projects.",
       icon: "delete_sweep",
       image: "/Rubble Removal.png"
     },
     {
       title: "Pick up and Deliver",
+      slug: "pick-up-deliver",
       description: "Reliable pick-up and delivery services for packages of all sizes. We ensure timely and secure delivery to your specified destination.",
       icon: "local_shipping",
       image: "/Pick up and Deliver.png"
     },
     {
       title: "Event Logistics",
-      description: "Specialized vehicle hire for events. Whether you need logistics support for a concert, exhibition, or private function, we have the fleet for you.",
+      slug: "event-logistics",
+      description: "Specialized logistics for events. Whether you need logistics support for a concert, exhibition, or private function, we coordinate timing and equipment handling.",
       icon: "event_seat",
-      image: "/Vehicle Event Hire.png"
+      image: "/Event logistics .jpeg"
     },
     {
       title: "Refrigerated Transport",
-      description: "Temperature-controlled transport for fine art, and sensitive goods. Maintained between -20°C to +15°C.",
+      slug: "refrigerated-transport",
+      description: "Temperature-controlled transport for fine art, and sensitive goods.",
       icon: "ac_unit",
       image: "/Refrigerated Delivery.png"
     },
     {
       title: "Heavy Truck Services",
+      slug: "heavy-truck-services",
       description: "Available for exclusive contract negotiated clients. Heavy-duty logistics for substantial transport requirements.",
       icon: "factory",
       image: "/Heavy Truck.png"
@@ -59,7 +65,7 @@ export default function ServicesPage() {
           {services.map((service, index) => (
             <div
               key={index}
-              onClick={() => window.location.href = `/contact?service=${encodeURIComponent(service.title)}`}
+              onClick={() => window.location.href = `/services/${service.slug}`}
               className={`flex flex-col md:flex-row items-center gap-8 md:gap-16 cursor-pointer group hover:opacity-90 transition-opacity ${
                 index % 2 === 1 ? "md:flex-row-reverse" : ""
               }`}
